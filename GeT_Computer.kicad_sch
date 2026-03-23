@@ -11,6 +11,113 @@
 		(company "Artur Twardzik")
 	)
 	(lib_symbols
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "GeT_Computer_Library:+1V1"
 			(power)
 			(pin_numbers
@@ -11059,6 +11166,12 @@
 		(uuid "052e98f0-3eb7-4950-b991-3535463e5d63")
 	)
 	(junction
+		(at 143.51 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0b9b5078-b145-4051-a1b4-32ecbf7a240b")
+	)
+	(junction
 		(at 76.2 325.12)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11353,6 +11466,12 @@
 		(uuid "8a3b97db-5291-4fad-91f3-afa3fa8e8eab")
 	)
 	(junction
+		(at 189.23 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8cbba53b-83f2-4471-b09f-9bcc11495e8a")
+	)
+	(junction
 		(at 53.34 335.28)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11531,6 +11650,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cd09fa67-e99a-469a-8430-8cea6f8d2c73")
+	)
+	(junction
+		(at 194.31 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cdab35f8-b367-4a8c-a7f1-4fb7cc22569a")
 	)
 	(junction
 		(at 215.9 115.57)
@@ -12292,7 +12417,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 128.27) (xy 148.59 128.27)
+			(xy 133.35 128.27) (xy 143.51 128.27)
 		)
 		(stroke
 			(width 0)
@@ -12649,6 +12774,16 @@
 			(type default)
 		)
 		(uuid "2189f71e-1b98-431c-addb-b3e64578a391")
+	)
+	(wire
+		(pts
+			(xy 143.51 128.27) (xy 148.59 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "223d8541-8eff-4035-bc86-34e9cfacd26c")
 	)
 	(wire
 		(pts
@@ -13249,6 +13384,16 @@
 			(type default)
 		)
 		(uuid "3c67c88e-5a75-4c60-baaf-65d97bc9287d")
+	)
+	(wire
+		(pts
+			(xy 199.39 102.87) (xy 199.39 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3cb7c048-3965-4364-bb48-2abb828b166d")
 	)
 	(wire
 		(pts
@@ -15032,6 +15177,16 @@
 	)
 	(wire
 		(pts
+			(xy 182.88 102.87) (xy 182.88 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e7f174d-9a00-491c-810b-300cb0598c11")
+	)
+	(wire
+		(pts
 			(xy 516.89 55.88) (xy 516.89 36.83)
 		)
 		(stroke
@@ -16112,6 +16267,16 @@
 	)
 	(wire
 		(pts
+			(xy 182.88 115.57) (xy 189.23 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9c3d457-db25-491b-b0fd-24cc9f1a2829")
+	)
+	(wire
+		(pts
 			(xy 220.98 115.57) (xy 223.52 115.57)
 		)
 		(stroke
@@ -16532,6 +16697,16 @@
 	)
 	(wire
 		(pts
+			(xy 199.39 115.57) (xy 194.31 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce277470-f81e-4044-93c9-139b4d1808eb")
+	)
+	(wire
+		(pts
 			(xy 516.89 29.21) (xy 516.89 26.67)
 		)
 		(stroke
@@ -16619,6 +16794,16 @@
 			(type default)
 		)
 		(uuid "d0c81bf5-5eec-4a3a-b2bd-1c9758f5c7aa")
+	)
+	(wire
+		(pts
+			(xy 143.51 127) (xy 143.51 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d26311ab-50fc-493d-805c-8eb7fbd76a87")
 	)
 	(wire
 		(pts
@@ -21411,6 +21596,73 @@
 			(project ""
 				(path "/ceae666c-b2bf-401a-adbe-d8ed4a2ae229"
 					(reference "#PWR072")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 143.51 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0f11e365-debb-4f79-a359-e22fccbe91e0")
+		(property "Reference" "TP2"
+			(at 146.05 122.4279 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 146.05 124.9679 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 148.59 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 148.59 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 143.51 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bdcd804d-ab16-477e-a03e-bb0783db9af4")
+		)
+		(instances
+			(project "GeT_Computer"
+				(path "/ceae666c-b2bf-401a-adbe-d8ed4a2ae229"
+					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -28892,6 +29144,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 182.88 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9525152d-134b-47c7-824e-b8c2307995ba")
+		(property "Reference" "TP3"
+			(at 185.42 98.2979 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 185.42 100.8379 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 187.96 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 187.96 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 182.88 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d09df69d-8cc1-4dd6-ae54-cb28d3a90d1f")
+		)
+		(instances
+			(project ""
+				(path "/ceae666c-b2bf-401a-adbe-d8ed4a2ae229"
+					(reference "TP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "GeT_Computer_Library:+3.3VA")
 		(at 234.95 353.06 0)
 		(unit 1)
@@ -31435,6 +31754,73 @@
 			(project "GeT_Computer"
 				(path "/ceae666c-b2bf-401a-adbe-d8ed4a2ae229"
 					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 199.39 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c897ef9f-0e9c-4dea-9938-5dbbe5978d14")
+		(property "Reference" "TP1"
+			(at 201.93 98.2979 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 201.93 100.8379 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 204.47 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 204.47 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 199.39 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4968ca69-e8a6-4c56-889f-e96e5cd4929d")
+		)
+		(instances
+			(project "GeT_Computer"
+				(path "/ceae666c-b2bf-401a-adbe-d8ed4a2ae229"
+					(reference "TP1")
 					(unit 1)
 				)
 			)
