@@ -1,0 +1,34 @@
+Drill report for GeT_Computer.kicad_pcb
+Created on 2026-01-12T22:58:20+0100
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  F.Cu                      front
+    L2 :  Ground Plane              in1
+    L3 :  Power Plane               in2
+    L4 :  B.Cu                      back
+
+
+Drill file 'GeT_Computer-PTH.drl' contains
+    plated through holes:
+    =============================================================
+    T1  0.300mm  0.0118"  (226 holes)
+    T2  0.300mm  0.0118"  (9 holes)
+    T3  0.800mm  0.0315"  (4 holes)  (with 4 slots)
+    T4  0.900mm  0.0354"  (12 holes)
+    T5  0.970mm  0.0382"  (6 holes)
+    T6  1.000mm  0.0394"  (45 holes)
+    T7  1.600mm  0.0630"  (2 holes)
+    T8  2.370mm  0.0933"  (3 holes)
+    T9  3.200mm  0.1260"  (2 holes)
+
+    Total plated holes count 309
+
+
+Drill file 'GeT_Computer-NPTH.drl' contains
+    unplated through holes:
+    =============================================================
+    T1  2.700mm  0.1063"  (4 holes)
+    T2  3.300mm  0.1299"  (2 holes)
+
+    Total unplated holes count 6
