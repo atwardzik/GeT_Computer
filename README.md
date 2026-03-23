@@ -12,6 +12,9 @@ This repository contains the **hardware design files** (KiCad schematics, PCB la
 
 ## Visual Overview
 
+### Schematic
+![Schematic](images/GeT_Computer.png)
+
 ### KiCad Design View
 ![PCB Kicad View](images/pcb_view.png)
 
